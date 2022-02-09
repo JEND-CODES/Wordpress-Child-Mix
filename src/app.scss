@@ -1,0 +1,36 @@
+/*!
+ Theme Name:   Radiate Child
+ Theme URI:    https://demo.themegrill.com/radiate
+ Description:  Radiate Child theme built with laravel mix
+ Author:       Jean-Eudes Nouaille-Degorce
+ Author URI:   http://portfolio.planetcode.fr
+ Template:     radiate
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         Child theme
+ Text Domain:  radiate-child
+*/
+
+$darkColor: black;
+
+body {
+	background: $darkColor;
+
+	p {
+		color: red;
+	}
+
+	#primary {
+		width: 100%;
+		border: 6px solid green;
+	}
+	
+	#content {
+		background: orange;
+	}
+}
+
+
+
+
